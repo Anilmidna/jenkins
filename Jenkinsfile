@@ -19,7 +19,7 @@ pipeline {
             steps {
                 script {
                         sh 'docker rm -f $(docker ps -q) || true'
-                        sh 'docker run -d -p 3000:3000 anilmidna/a10001:latest'
+                        sh 'docker run -d -p 8082:8082 anilmidna/a10001:latest'
                         
                     
                 }
