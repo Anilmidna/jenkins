@@ -1,6 +1,7 @@
 pipeline {
     agent any
-     
+
+    stages {
        stage('Docker Build And Push') {
             steps {
                 script {
@@ -25,4 +26,5 @@ pipeline {
             }
         }
         
+}
 }
