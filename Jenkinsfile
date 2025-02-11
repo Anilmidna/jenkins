@@ -21,8 +21,7 @@ pipeline {
   -Dsonar.organization=anilmidna \
   -Dsonar.projectKey=anilmidna_jenkins \
   -Dsonar.sources=. \
-  -Dsonar.host.url=https://sonarcloud.io
- '''
+  -Dsonar.host.url=https://sonarcloud.io '''
                 }
             }
         }
